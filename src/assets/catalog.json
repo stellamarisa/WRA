@@ -1,0 +1,64 @@
+﻿[
+
+	{
+		"id": 1,
+		"typ": "MultipleChoice",
+		"category": "Merkmale",
+		"question": "Welche Merkmale sind nicht zur Identifizierung eines Pferdes geeignet?",
+		"options": {
+			"A": "Kastanien",
+			"B": "Narben",
+			"C": "Fellwirbel",
+			"D": "Abzeichen",
+			"E": "Fellfarbe",
+			"F": "Gewicht",
+			"G": "Chip"
+		},
+		"answer": ["B", "F"]
+	},
+
+	{
+		"id": 2,
+		"typ": "FillText",
+		"category": "Mermale",
+		"question": "Vervollständige diesen Text:",
+		"text": "Fellfarbe, Kastanien, Abzeichen und Wirbel zählen zu den {?} Kennzeichen eines Pferdes, wohingegen Narben und Gewicht {?} Merkmale sind.\nAber Vorsicht: Die Farbe kann sich bei {?} und {?} im Laufe des Lebens verändern.",
+		"answer": [
+			"unverwechselbaren",
+			"veränderliche",
+			["Schimmeln", "Tigerschecken", "Appaloosas"],
+			["Schimmeln", "Tigerschecken", "Appaloosas"]
+		]
+	},
+
+
+	{
+		"id": 3,
+		"typ": "Order",
+		"category": "Merkmale",
+		"question": "Ordne die Definitionen den Merkmalen zu:",
+		"order1": ["Deckhaar", "Langhaar", "Kötenbehang", "Aalstrich (dorsal stripe)", "Zebrastreifen", "Fisch-/ Glasauge", "Birkauge"],
+		"order2": [[
+					"Mehrfarbiges Auge",
+					"dunkler Streifen von der Mähne bis zum Schweif",
+					"Mähne und Schweif",
+					"Streifen an den Beinen",
+					"schützende Fesselkopfbehaarung",
+					"Fell",
+					"Hellblaues oder weißes Auge"
+				]],
+		"answer": [[5, 2, 4, 1, 3, 6, 0]]
+	},
+
+
+	{
+		"id": 4,
+		"typ": "Simple",
+		"category": "Merkmale",
+		"question": "Was wird hier beschrieben?",
+		"text": "Pigmentlose Stellen mit heller Haut an Kopf, Beinen oder Rumpf des Pferdes, die mit weißen Haaren bedeckt sind.",
+		"answer": [
+			"Abzeichen"
+		]
+	}
+]
